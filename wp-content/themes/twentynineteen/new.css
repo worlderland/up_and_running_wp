@@ -1,0 +1,14 @@
+/* CSS file from Up & Running WP book */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: red;
+}
+
+.js {
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

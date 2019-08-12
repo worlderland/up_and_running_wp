@@ -12,4 +12,4 @@ function twentynineteen_filter_example($title)
 	{
 		return 'Hooked by Child Theme: ' . $title;
 	}
-	add_filter('the_title', 'twentynineteen_filter_example');
+    add_filter('the_title', 'twentynineteen_filter_example');

@@ -8,3 +8,9 @@ Description: Child Theme for the Twenty Seventeen theme
 Template: twentyseventeen
 Version: 1.0.0
 */
+
+.kitties-class {
+    font-size: 2.5em;
+    text-transform: capitalize;
+    color: red;
+}

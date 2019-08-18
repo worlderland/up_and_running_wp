@@ -4,6 +4,7 @@
 //Thumb-Up icon
 // Get the term object
 $thumbs_up_term = get_term_by('name', 'Thumbs Up!', 'thumbs');
+//var_dump($thumbs_up_term);
 
 // Get the ID property of the term object
 $term_id = $thumbs_up_term->term_id;
@@ -14,6 +15,7 @@ update_term_meta($term_id, 'thumb_default_image', 'http://localhost:1080/AC/up_a
 //Thumb-Down icon
 // Get the term object
 $thumbs_down_term = get_term_by('name', 'Thumbs Down!', 'thumbs');
+//var_dump($thumbs_down_term);
 
 // Get the ID property of the term object
 $term_id = $thumbs_down_term->term_id;

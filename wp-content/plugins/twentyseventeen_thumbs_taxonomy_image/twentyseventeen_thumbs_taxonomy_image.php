@@ -23,7 +23,6 @@ $term_id = $thumbs_down_term->term_id;
 //Add meta to the term object
 update_term_meta($term_id, 'thumb_default_image', 'http://localhost:1080/AC/up_and_running_wp/wp-content/uploads/2019/08/25237-3.png');
 
-
 // function twentyseventeen_add_thumb_image_before_content($content) {
 //     //Get array of thumbs terms that apply to this post
 //     $thumb_rating_object_array = get_the_terms(get_the_ID(), 'thumbs');

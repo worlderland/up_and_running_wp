@@ -16,7 +16,7 @@ function twentyseventeen_filter_example($title)
 add_filter('the_title', 'twentyseventeen_filter_example');
 
 //Creating a widgets area
-function twentynineteen_theme_slug_widgets_init() {
+function twentyseventeen_theme_slug_widgets_init() {
     $args = array(
         'name' => 'Widgetised sidebar',
         'id' => 'widgetised-sidebar',
@@ -29,4 +29,10 @@ function twentynineteen_theme_slug_widgets_init() {
     );
     register_sidebar($args);
 }
-add_action('widgets_init', 'twentynineteen_theme_slug_widgets_init');
+add_action('widgets_init', 'twentyseventeen_theme_slug_widgets_init');
+
+//Creating a menu area
+function twentyseventeen_register_menu() {
+    register_nav_menu('main-nav', 'Main Nav');
+}
+add_action('after_setup_theme', 'twentyseventeen_register_menu');
